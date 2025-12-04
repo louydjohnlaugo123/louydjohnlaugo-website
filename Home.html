@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+        p {
+            color:rgb(0, 0, 0);
+            font-size: 18px;
+            background-color: rgba(211, 211, 211, 0);
+        }
+        
+    </style>
+    </head>
+    <body class="bg-gray-100">
+        <nav class="bg-gray-800 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="#" class="text-white font-bold text-lg">Louyd's Vlog </a>
+                <button id="menu-btn"  class="md:hidden text-white text-2xl focus:outline-none">☰</button>
+                <div id="menu" class="hidden md:flex space-x-">
+                     <a class="text-white" href="Home.html">Home</a>
+                    <a class="text-white" href="About.html">About</a>
+                    <a class="text-white" href="Services.html">Services</a>
+                    <a class="text-white" href="Contact.html">Contacts</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+         <div class="container mt-4">
+        <div class="row align-items-center">
+            <div>
+                <h2 class="text-2x1 font-bold mb-4">Louyd's Vlog </h2>
+                <p class="mb-4"> Latest News and Information          </p>              
+            
+        </div>
+
+            <div>
+                <h3 class="text-2x1 font-bold mb-4">Contractors Sarah and Curlee Discaya corruption</h3>
+                
+                <p class="mb-4">Contractors Sarah and Curlee Discaya on Monday disclosed the names of several congressmen, their staff, and officials of the Department of Public Works and Highways who are allegedly involved in corruption in the country’s flood control projects.
+                    Senate President Pro Tempore and Senate Blue Ribbon Committee Chair Panfilo Lacson said there was no competition between the investigation he would lead and that of the Independent Commission for Infrastructure (ICI).
+                     "The two efforts are not competing, but rather complementing each other. The Blue Ribbon inquiry is in aid of legislation but nothing will prevent us from forwarding whatever evidence we may gather to the ICI to assist their investigation towards prosecution.
+                        </p>      
+                                
+            <div class="col-md-6 text-center">
+                <img src="Government.jpg" alt="example" class="Responsive Sample">
+            </div>
+        </div>
+        <h3><br><br><br><br></h3>
+
+        
+            <div>
+                <h4 class="text-2x1 font-bold mb-4">Artificial Intelligence (AI)</h4>
+                
+                <p class="mb-4">Artificial Intelligence (AI) is the development of computer systems that can perform tasks typically requiring human intelligence, such as learning, problem-solving, reasoning, and decision-making.
+                        AI enables machines to perceive their environment, process information, and act to achieve specific goals, functioning as a key technology behind various innovations like voice assistants, recommendation systems, and autonomous vehicles. 
+                 </p>
+                        
+            <div class="col-md-6 text-center">
+                <img src="AI.jpg" alt="example" class="Responsive Sample">
+            </div>
+        </div>
+            <h4><br><br><br><br></h4>
+
+        
+            <div>
+                <h5 class="text-2x1 font-bold mb-4">Computer</h5>
+                <p class="mb-4">A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of operations known as programs, which enable computers to perform a wide range of tasks.
+                This versatile machine relies on both hardware, the physical components like the CPU and memory, and software, the intangible instructions that tell the hardware what to do. 
+             
+            </p>              
+            <div class="col-md-6 text-center">
+                <img src="desktop-pc.jpg" alt="example" class="Responsive Sample">
+            </div>
+        </div>
+            <h5><br><br><br><br></h5>
+        
+            <div>
+                <h6 class="text-2x1 font-bold mb-4">ASUS</h6>
+                <p class="mb-4">ASUS (ASUSTeK Computer Inc.) is a Taiwanese multinational technology company founded in 1989, known for its innovative and high-quality personal computers, laptops, motherboards, graphics cards, and other consumer electronics.
+                    With a focus on innovation and cutting-edge technology, the company is a leading brand in personal computers and gaming and aims to create products that enhance people's lives and provide incredible experiences. 
+            </p>              
+            <div class="col-md-6 text-center">
+                <img src="ASUS.png" alt="example" class="Responsive Sample">
+            </div>
+        </div>
+            <h6><br><br><br><br></h6>
+         
+            <div>
+                <h7 class="text-2x1 font-bold mb-4">The Suzuki Hayabusa</h7>
+                <p class="mb-4">The Suzuki Hayabusa is an iconic, high-performance sportbike known for its powerful engine, aerodynamic body inspired by the peregrine falcon, and advanced electronic systems like the Suzuki Intelligent Ride System (SIRS). It offers incredible acceleration, smooth power delivery, and confident handling thanks to its twin-spar aluminum frame and comprehensive electronic rider aids, including traction control and a quick shifter. The modern Hayabusa features a stylish instrument cluster with a TFT display and offers a comfortable, predictable ride for ultimate performance.
+          </p>              
+            <div class="col-md-6 text-center">
+                <img src="motor.jpg" alt="example" class="Responsive Sample">
+            </div>
+        </div>
+
+        <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+    </body>
+</html>
